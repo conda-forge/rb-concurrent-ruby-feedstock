@@ -1,5 +1,5 @@
 {% set name = "concurrent-ruby" %}
-{% set version = "1.1.6" %}
+{% set version = "1.1.7" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 14da21d5cfe9ccb02e9359b01cb7291e0167ded0ec805d4f3a4b2b4ffa418324
+  sha256: ff4befc88d522ccb2109596da26309f4b0b041683ca62d3cb903b313e1caddee
 
 build:
   noarch: generic
