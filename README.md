@@ -5,11 +5,13 @@ Home: https://rubygems.org/gems/concurrent-ruby
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rb-concurrent-ruby-feedstock/blob/master/LICENSE.txt)
 
 Summary: Modern concurrency tools including agents, futures, promises, thread pools, actors, supervisors, and more.
 
+Development: https://github.com/ruby-concurrency/concurrent-ruby
 
+Documentation: http://www.rubydoc.info/gems/concurrent-ruby
 
 Current build status
 ====================
