@@ -30,7 +30,7 @@ about:
   home: https://rubygems.org/gems/{{ name }}
   license: MIT
   license_family: MIT
-  license_file: {{ name }}-{{ version }}/LICENSE.md
+  license_file: {{ name }}-{{ version }}/LICENSE.txt
   summary: Modern concurrency tools including agents, futures, promises, thread pools, actors, supervisors, and more.
 
   doc_url: http://www.rubydoc.info/gems/{{ name }}
