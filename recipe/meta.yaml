@@ -1,5 +1,5 @@
 {% set name = "concurrent-ruby" %}
-{% set version = "1.1.6" %}
+{% set version = "1.2.2" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 14da21d5cfe9ccb02e9359b01cb7291e0167ded0ec805d4f3a4b2b4ffa418324
+  sha256: 3879119b8b75e3b62616acc256c64a134d0b0a7a9a3fcba5a233025bcde22c4f
 
 build:
   noarch: generic
-  number: 1
+  number: 0
   script:
     - gem install --norc -l -V --ignore-dependencies {{ name }}-{{ version }}.gem
     - gem unpack {{ name }}-{{ version }}.gem
@@ -30,7 +30,7 @@ about:
   home: https://rubygems.org/gems/{{ name }}
   license: MIT
   license_family: MIT
-  license_file: {{ name }}-{{ version }}/LICENSE.md
+  license_file: {{ name }}-{{ version }}/LICENSE.txt
   summary: Modern concurrency tools including agents, futures, promises, thread pools, actors, supervisors, and more.
 
   doc_url: http://www.rubydoc.info/gems/{{ name }}
